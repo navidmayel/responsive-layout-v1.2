@@ -1,0 +1,211 @@
+/********************
+BASE LAYOUT
+*********************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+/********************
+BASE LAYOUT STYLES
+*********************/
+
+/* ---- HEADER ---- */
+
+.header-title {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 20px 0 20px;
+	margin-bottom: 10px;
+}
+
+
+
+/* ---- NAVIGATION ---- */
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li a {
+	margin: 5px;
+	border: 1px solid;
+	display: block;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 0.8em;
+}
+
+.profile-photo {
+	display: block;
+	margin: 0 auto;
+	padding: 50px 50px 20px;
+}
+
+.header-sentence {
+	text-align: center;
+	margin: 0 5%;
+	padding-bottom: 50px;
+	line-height: 1.5;
+}
+
+
+
+/* ---- PORTFOLIO ---- */
+
+.portfolio h2,
+.skills h2 {
+	text-align: center;
+	margin: 50px;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.portfolio h3,
+.skills h3 {
+	text-align: center;
+	margin: 20px 0 10px;
+	font-weight: 600;
+}
+
+.portfolio p {
+	text-align: center;
+	padding: 5px;
+	margin: 5px 0 40px;
+	font-size: 0.9em;
+	line-height: 1.6;
+}
+
+/* ---- SKILLS ---- */
+
+.skills li {
+	text-align: center;
+	display: block;
+	margin: 5px;
+	padding: 5px;
+}
+
+.skills-bottom-margin {
+	margin-bottom: 50px;
+}
+
+/* ---- FOOTER ---- */
+
+footer h2 {
+	text-align: center;
+	margin: 5px;
+	padding: 20% 0 30px;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+footer p {
+	text-align: center;
+	padding: 5px;
+	margin: 5px 0;
+	line-height: 1.6;
+}
+
+footer .contact {
+	margin-left: 10px;
+	font-weight: 700;
+}
+
+footer .footer-space {
+	margin-bottom: 50px;
+}
+
+.bottom-footer {
+	padding: 20px 10px;
+	border-top: 1px solid rgba(51,51,51, 0.25);
+}
+.bottom-footer p {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.bottom-footer a {
+	float: right;
+}
+.bottom-footer p,
+.bottom-footer a {
+	font-weight: 800;
+	font-size: 0.8em;
+}
+
+.bottom-footer ul {
+	display: none;
+}
+
+/********************
+COLORS
+*********************/
+
+body {
+	background-color: #F2F1EF;
+}
+
+header,
+footer {
+	background-color: #6BB9F0;
+}
+
+nav li a {
+		background-color: #F2F1EF;
+		color: #333;
+
+}
+
+nav li a:hover {
+	box-shadow: 0px 0px 0px 2px rgba(242,241,239,0.75)
+}
+
+.header-sentence {
+	color: #333;
+}
+
+.bottom-footer a {
+	color: #333;
+}
+
+/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}

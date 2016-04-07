@@ -1,0 +1,173 @@
+@media screen and (min-width: 768px) {
+	.container {
+		width: 95%;
+		max-width: 900px
+	}	
+
+
+
+	/************************
+	HEADER
+	************************/
+	nav ul {
+		margin-bottom: 5%;
+	}
+
+	nav li {
+		display: inline-block
+	}
+	nav li a {
+		font-size: 1.1em;
+		background: none;
+		border: none;
+	}
+	nav li a:hover {
+		box-shadow: none;
+		border-bottom: 5px solid #333;
+	}
+	.profile-photo {
+		float: right;
+		margin-bottom: 10%;
+		padding: 0 0.95em;
+	}
+	.header-sentence {
+		font-size: 1.35em;
+		text-align: left;
+		display: inline;
+		margin: 0;
+	}
+
+
+
+
+	/************************
+	MAIN CONTENT
+	************************/
+	.portfolio h2,
+	.skills h2 {
+		padding-top: 10px;
+	}
+
+	.portfolio li,
+	.skills li {
+		width: 45%;
+		float: left;
+		margin: 2.5%;
+	}
+
+	.portfolio li:nth-child(3),
+	.skills li:nth-child(3) {
+		clear: left;
+	}
+
+	.portfolio li p {
+		font-size: 1em;
+	}
+	.skills {
+		clear: both;
+	}
+	.skill-points li {
+
+	}
+
+
+	/************************
+	FOOTER
+	************************/
+	footer {
+		clear: both;
+	}
+
+	.bottom-footer a.to-top {
+		display: none;
+	}
+
+	footer h2 {
+		padding: 50px;
+		margin: 0;
+	}
+	footer p {
+		font-size: 1.4em;
+		margin: 0 10%;
+		color: rgba(63,63,63, 0.70);
+	}
+	.contact-sentence {
+		margin-bottom: 30px;
+	}
+	p.footer-space {
+		margin-bottom: 10%;
+	}
+	.bottom-footer .bottom-nav {
+		display: inline;
+	}
+	.bottom-footer p {
+		padding: 10px;
+		color: #333;
+	}
+	.bottom-footer .bottom-nav a {
+		text-transform: uppercase;
+		display: inline-block;
+		padding: 10px;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	.container {
+		width: 90%;
+		max-width: 1200px;
+	}
+	/************************
+	HEADER
+	************************/
+	.header-title {
+		text-align: left;
+		float: left;
+		width: 50%;
+		padding: 10px 0;
+		margin: 30px 0 45px;
+	}
+
+	nav {
+		text-align: right;
+		float: right;
+		width: 50%;
+		padding: 10px;
+		margin: 20px 0 20px;
+	}
+
+	.profile-photo {
+		margin: 0 0 5% 10px;
+		padding: 0;
+		margin-left: 2em;
+		clear: both;
+	}
+	.header-sentence {
+		font-size: 1.4em;
+	}
+
+	/************************
+	MAIN CONTENT
+	************************/
+	.portfolio li,
+	.skills li {
+		width: 28.3333%;
+		margin: 2.5%;
+	}
+
+	.portfolio li:nth-child(3),
+	.skills li:nth-child(3) {
+		clear: right;
+	}
+
+	.portfolio li:nth-child(4) {
+		clear: left;
+	}
+
+	ul.skill-points li {
+		display: inline;
+		width: 50%;
+		margin: 0 auto;
+		padding: 0.4em;
+	}
+}
